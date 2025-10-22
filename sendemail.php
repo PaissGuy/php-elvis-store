@@ -5,7 +5,7 @@ $text = $_POST['elvismail'];
 $dbc = mysqli_connect(
     'localhost',
     'root',
-    'AA1FBB2FC4',
+    '-',
     'elvis_store'
 ) or die('Error connecting to MySQL server.');
 $query = "SELECT * FROM email_list";
